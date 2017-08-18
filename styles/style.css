@@ -1,0 +1,115 @@
+body {
+   background: #f1f1f1;
+   margin: 0;
+   padding: 0;
+}
+
+.masthead {
+    box-sizing: border-box;
+    padding: 2px 30px;
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.menu-logo-holder {
+    float: left;
+    padding: 4px;
+}
+
+.menu {
+    display: inline-block;
+    height: 33px;
+    width: 33px;
+    background: #fff;
+    cursor: pointer;
+    background: no-repeat url(//s.ytimg.com/yts/imgbin/www-hitchhiker-vflXBOoAR.webp) -315px -161px;
+    background-size: auto;
+    border: none;
+    
+}
+
+.logo {
+    display: inline-block;
+    height: 30px;
+    width: 73px;
+    background: no-repeat url(//s.ytimg.com/yts/imgbin/www-hitchhiker-vflXBOoAR.webp) -178px -227px;
+    background-size: auto;
+    
+}
+
+.search-holder {
+    padding: 8px;
+    float: left;
+    width: 75%;
+    padding-left: 30px;
+    min-width: 650px;
+    height: 31px;
+}
+
+.search-bar {
+    box-sizing: border-box;
+    float: left;
+    width: 600px;
+    height: 28px;
+    border: 1px solid #ccc;
+    border-right: 0;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.search-button {
+    padding-left: 22px;
+    display: inline-block;
+    width: 65px;
+    height: 28px;
+    border: 1px solid #000;
+    opacity: 0.5;
+}
+
+.search-button:hover {
+    opacity: 1;
+}
+
+.search-image {
+    width: 20px;
+    height: 100%;
+    background: no-repeat url(//s.ytimg.com/yts/imgbin/www-hitchhiker-vflXBOoAR.webp) -690px -37px;
+    background-size: auto;
+}
+
+.signIn-upload-holder {
+    float: right;
+    margin: 8px;
+    width: 90px;
+}
+
+
+.upload {
+    float: left;
+    height: 30px;
+    width: 30px;
+    background: no-repeat url(//s.ytimg.com/yts/imgbin/www-hitchhiker-vflXBOoAR.webp) -106px -26px;
+    background-size: auto;
+    opacity: 0.6;
+    border: none;
+}
+
+.sign-in {
+    float: right;
+    width: 50px;
+    height: 28px;
+    border-radius: 2px;
+    border: none;
+    background-color: #167ac6;
+}
+
+.sign-in p {
+    color: #fff;
+    font-size: 10px;
+    -webkit-margin-before: 6px;
+    font-family: 'Roboto', arial, sans-serif;
+}
+
+
