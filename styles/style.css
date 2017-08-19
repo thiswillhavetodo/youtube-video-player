@@ -4,6 +4,13 @@ body {
    padding: 0;
 }
 
+p {
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+}
+
+/*masthead*/
+
 .masthead {
     box-sizing: border-box;
     padding: 2px 30px;
@@ -36,7 +43,7 @@ body {
     width: 73px;
     background: no-repeat url(//s.ytimg.com/yts/imgbin/www-hitchhiker-vflXBOoAR.webp) -178px -227px;
     background-size: auto;
-    
+    cursor: pointer;
 }
 
 .search-holder {
@@ -55,7 +62,7 @@ body {
     height: 28px;
     border: 1px solid #ccc;
     border-right: 0;
-    padding: 8px;
+    padding: 6px;
     font-size: 16px;
 }
 
@@ -64,8 +71,9 @@ body {
     display: inline-block;
     width: 65px;
     height: 28px;
-    border: 1px solid #000;
+    border: 1px solid #666;
     opacity: 0.5;
+    cursor: pointer;
 }
 
 .search-button:hover {
@@ -92,8 +100,8 @@ body {
     width: 30px;
     background: no-repeat url(//s.ytimg.com/yts/imgbin/www-hitchhiker-vflXBOoAR.webp) -106px -26px;
     background-size: auto;
-    opacity: 0.6;
     border: none;
+    cursor: pointer;
 }
 
 .sign-in {
@@ -103,6 +111,7 @@ body {
     border-radius: 2px;
     border: none;
     background-color: #167ac6;
+    cursor: pointer;
 }
 
 .sign-in p {
@@ -112,4 +121,102 @@ body {
     font-family: 'Roboto', arial, sans-serif;
 }
 
+.sign-in:hover {
+    background-color: #146eb3;
+}
 
+/* main */
+
+.video-position {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.video-holder {
+    width: 854px;
+    background-color: #fff;
+    height: 480px;
+    margin-bottom: 10px;
+}
+
+.video-info {
+    box-sizing: border-box;
+    width: 854px;
+    background-color: #fff;
+    height: 150px;
+    margin-bottom: 10px;
+    padding: 15px 15px;
+}
+
+.vid-title {
+    font-family: 'Roboto', arial, sans-serif;
+    color: #333;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0.5em;
+    font-size: 20px;
+}
+
+.author-subscribe-views {
+    vertical-align: top;
+}
+
+.author-logo {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    background: url(https://yt3.ggpht.com/-UbUyULJMBoM/AAAAAAAAAAI/AAAAAAAAAAA/LGD8KPvBEdc/s88-c-k-no-mo-rj-c0xffffff/photo.jpg);
+    background-size: contain;
+}
+
+.author-name {
+    vertical-align: top;
+    display: inline-block;
+    font-family: 'Roboto', arial, sans-serif;
+    color: #333;
+    font-size: 13px;
+    padding-left: 5px;
+}
+
+.subscribe {
+    float: left;
+    margin-top: 7px;
+    height: 24px;
+    width: 100px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: none;
+}
+
+.play {
+    float: left;
+    width: 16px;
+    height: 12px;
+    background: no-repeat url(//s.ytimg.com/yts/imgbin/www-hitchhiker-vflXBOoAR.webp) -721px -88px;
+    background-size: auto;
+    
+}
+
+.share-holder {
+    display: none;
+    width: 854px;
+    background-color: #fff;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.publish-info {
+    width: 854px;
+    background-color: #fff;
+    height: 125px;
+    margin-bottom: 10px;
+}
+
+.comments-holder {
+    width: 854px;
+    background-color: #fff;
+    height: 200px;
+    margin-bottom: 10px;
+}
