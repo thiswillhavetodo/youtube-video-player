@@ -50,7 +50,7 @@ p {
     padding: 8px;
     float: left;
     width: 75%;
-    padding-left: 30px;
+    padding-left: 75px;
     min-width: 650px;
     height: 31px;
 }
@@ -117,7 +117,6 @@ p {
 .sign-in p {
     color: #fff;
     font-size: 10px;
-    -webkit-margin-before: 6px;
     font-family: 'Roboto', arial, sans-serif;
 }
 
@@ -141,13 +140,18 @@ p {
     margin-bottom: 10px;
 }
 
+.embedded-video {
+    width: 100%;
+    height: 100%;
+}
+
 .video-info {
     box-sizing: border-box;
     width: 854px;
     background-color: #fff;
     height: 150px;
     margin-bottom: 10px;
-    padding: 15px 15px;
+    padding: 15px;
 }
 
 .vid-title {
@@ -158,8 +162,129 @@ p {
     font-size: 20px;
 }
 
+.up-next-holder {
+    box-sizing: border-box;
+    float: right;
+    width: 416px;
+    background-color: #fff;
+    height: 1000px;
+    padding: 12px 0px 10px 15px;
+}
+
+.up-next-top {
+    padding-bottom: 12px;
+    border-bottom: 1px solid #ccc;
+}
+
+.up-next-text {
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Roboto', arial, sans-serif;
+    color: #000;
+    font-size: 13px;
+    padding-right: 220px;
+    padding-bottom: 12px;
+    -webkit-margin-before: 2px;
+}
+
+.sidebar-video-wrapper {
+    padding-top: 15px;
+}
+
+.link-holder {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.autoplay-text {
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Roboto', arial, sans-serif;
+    color: #333;
+    font-size: 13px;
+    padding-right: 3px;
+    -webkit-margin-before: 2px;
+}
+
+.sidebar-icon-positioner {
+    display: inline-block;
+    padding-top: 4px;
+}
+
+.info-icon {
+    display: inline-block;
+    height: 14px;
+    width: 14px;
+    opacity: 0.5;
+    background: no-repeat url(//s.ytimg.com/yts/imgbin/www-hitchhiker-vflXBOoAR.webp) -565px -90px;
+    background-size: auto;
+    padding-right: 5px;
+}
+
+#autoplay-checkbox {
+    display: none;
+}
+
+.checkbox-holder {
+    display: inline-block;
+    vertical-align: top;
+    height: 14px;
+    width: 37px;
+    background-color: #167ac6;
+    border-radius: 20px;
+}
+
+.checkbox-holder p {
+    font-size: 11px;
+    padding-left: 5px;
+    color: #fff;
+    width: 14px;
+}
+
+.toggle {
+    box-sizing: border-box;
+    float: right;
+    vertical-align: top;
+    height: 14px;
+    width: 14px;
+    border-radius: 14px;
+    border: 1px solid #167ac6;
+    margin-top: -15px;
+    background-color: #fff;
+}
+
+.suggestion-info {
+    width: 210px;
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Roboto', arial, sans-serif;
+    color: #333;
+    font-size: 14px;
+    font-weight: 800;
+    text-align: left;
+    text-decoration: none;
+}
+
+.suggestion-info-text {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.sidebar-author, .sidebar-viewcount {
+    font-size: 11px;
+    font-weight: normal;
+    display: block;
+}
+
+.suggestion-thumbnail {
+    display: inline-block;
+    padding-right: 5px;
+}
+
 .author-subscribe-views {
     vertical-align: top;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
 }
 
 .author-logo {
@@ -179,15 +304,50 @@ p {
     padding-left: 5px;
 }
 
+.author {
+    font-weight: bold;
+}
+
+.subscriber-info {
+    margin-top: 7px;
+}
+
 .subscribe {
     float: left;
-    margin-top: 7px;
     height: 24px;
-    width: 100px;
-    background-color: red;
+    width: 89px;
+    background-color: #e62117;
     color: #fff;
     border: none;
     padding: none;
+    font-size: 12px;
+    border-radius: 2px 0 0 2px;
+}
+
+.subscribe-text {
+    padding-left: 22px;
+}
+
+.subscriber-count {
+    display: inline-block;
+    height: 12px;
+    width: 20px;
+    padding: 5px;
+    padding-left: 6px;
+    border: 1px solid #ccc;
+    border-left: none;
+    font-family: 'Roboto', arial, sans-serif;
+    font-size: 11px;
+    color: #737373;
+}
+
+.views-holder {
+    padding-top: 30px;
+    padding-bottom: 7px;
+    float: right;
+    font-family: 'Roboto', arial, sans-serif;
+    font-size: 20px;
+    border-bottom: 2px solid #167ac6;
 }
 
 .play {
@@ -196,8 +356,69 @@ p {
     height: 12px;
     background: no-repeat url(//s.ytimg.com/yts/imgbin/www-hitchhiker-vflXBOoAR.webp) -721px -88px;
     background-size: auto;
-    
 }
+
+.icon-holder {
+    margin-top: 2px;
+}
+
+.icon-holder-button {
+    width: 70px;
+    height: 30px;
+    vertical-align: top;
+    background-color: #fff;
+    padding: 0px;
+    cursor: pointer;
+    box-shadow: none;
+    border: none;
+    opacity: 0.5;
+}
+
+.icon-holder-icon {
+    float: left;
+    width: 20px;
+    height: 20px;
+    background-size: auto;
+    text-align: left;
+    margin-top: -3px;
+}
+
+.icon-holder-button:hover {
+    opacity: 0.75;
+}
+
+button:nth-child(4), button:nth-child(5) {
+    float: right;
+    width: 55px;
+}
+
+.add-to {
+    background: no-repeat url(//s.ytimg.com/yts/imgbin/www-hitchhiker-vflXBOoAR.webp) -813px -232px;
+}
+
+.share {
+    background: no-repeat url(//s.ytimg.com/yts/imgbin/www-hitchhiker-vflXBOoAR.webp) -822px -88px;
+}
+
+.more {
+    background: no-repeat url(//s.ytimg.com/yts/imgbin/www-hitchhiker-vflXBOoAR.webp) -675px -148px;
+}
+
+.likes {
+    background: no-repeat url(//s.ytimg.com/yts/imgbin/www-hitchhiker-vflXBOoAR.webp) -775px -112px;
+}
+
+.dislikes {
+    background: no-repeat url(//s.ytimg.com/yts/imgbin/www-hitchhiker-vflXBOoAR.webp) -807px -200px;
+}
+
+.button-text {
+    font-family: 'Roboto', arial, sans-serif;
+    font-size: 11px;
+    color: #333;
+    padding-right: 8px;
+}
+    
 
 .share-holder {
     display: none;
@@ -205,13 +426,42 @@ p {
     background-color: #fff;
     height: 100px;
     margin-bottom: 10px;
+    padding: 15px;
+    box-sizing: border-box;
 }
 
 .publish-info {
+    box-sizing: border-box;
     width: 854px;
+    max-width: 854px;
     background-color: #fff;
     height: 125px;
     margin-bottom: 10px;
+    padding: 15px;
+    font-family: 'Roboto', arial, sans-serif;
+}
+
+.publish-date {
+    font-size: 13px;
+    font-weight: bold;
+    -webkit-margin-after: 0.25em;
+}
+
+.description-short {
+    font-size: 13px;
+    padding-bottom: 13px;
+    border-bottom: 1px solid #ccc;
+}
+
+.show-more {
+    width: 100%;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    font-family: 'Roboto', arial, sans-serif;
+    font-size: 11px;
+    color: #666;
+    padding-top: 10px;
 }
 
 .comments-holder {
@@ -219,4 +469,40 @@ p {
     background-color: #fff;
     height: 200px;
     margin-bottom: 10px;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.comments-header {
+    font-family: 'Roboto', arial, sans-serif;
+    color: #333;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0.5em;
+    font-size: 15px;
+}
+
+.user-icon {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    background: url(https://yt3.ggpht.com/-kTJC4W9ntl0/AAAAAAAAAAI/AAAAAAAAAAA/JMyTAszhEcY/s48-c-k-no-mo-rj-c0xffffff/photo.jpg);
+    background-size: contain;
+    margin-right: 15px;
+}
+
+.comments-input {
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    width: 750px;
+    height: 48px;
+    border: 1px solid #ccc;
+    padding: 6px;
+}
+
+.comment-placeholder {
+    font-family: 'Roboto', arial, sans-serif;
+    color: #333;
+    -webkit-margin-before: 0em;
+    font-size: 13px;
 }
